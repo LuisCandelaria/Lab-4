@@ -52,7 +52,6 @@ function firstop(operation){
     history += input.value + operation;
     result = Number(input.value);
     input.value = "";
-    resultTxtBox = "";
 }
 
 function sum(){
